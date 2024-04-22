@@ -35,7 +35,7 @@ sliders = [
 # app code
 
 app = Dash(__name__)
-
+server=app.server 
 app.title="Breast Cancer Predictor"
 
 app.layout =  html.Div(children=[
